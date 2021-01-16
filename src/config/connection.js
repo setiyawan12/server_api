@@ -4,10 +4,10 @@ const { DB_HOST, DB_USERNAME, DB_PASSWORD, DB_DATABASE } = process.env;
 // console.log(DB_DATABASE);
 
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'api'
+    host: 'remotemysql.com',
+    user: 'ifiXHA3yGf',
+    password: 'GEjpyPhvwD',
+    database: 'ifiXHA3yGf'
 });
 
 db.connect((err) => {
